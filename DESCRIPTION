@@ -1,0 +1,24 @@
+Package: travis_test 
+Type: Package
+Title: Test 
+Version: 0.99.0
+Date: 2013-10-21
+Author: Kieran O'Neill
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: Just a test 
+License: BSD_2_clause + file LICENSE
+Depends:
+    BH (>= 1.51.0-3),
+    Rsamtools (>= 1.21)
+LinkingTo: Rcpp, BH
+Imports:
+    diagram
+	GenomicFiles
+Suggests:
+    snow,
+    BiocStyle,
+    knitr,
+    rmarkdown
+biocViews: CellBasedAssays, QualityControl, Alignment, WholeGenome, Genetics
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
